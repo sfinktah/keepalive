@@ -14,8 +14,8 @@ echo $version
 twine check "$lastfile"
 twine upload --repository pypitest "$lastfile"
 echo "Install at:"
-echo "python -m pip install -i https://test.pypi.org/simple/ keepalive==$version"
+echo "python -m pip install -i https://test.pypi.org/simple/ keepalive-socket==$version"
 sleep 20
 # python -m pip install --upgrade --index-url https://test.pypi.org/simple/ keepalive
-cmd /c "python -m pip install -i https://test.pypi.org/simple/ keepalive==$version"
-python -m pip install -i https://test.pypi.org/simple/ keepalive==$version
+cmd /c "python -m pip install -i https://test.pypi.org/simple/ keepalive-socket==$version"
+python -m pip install -i https://test.pypi.org/simple/ keepalive-socket==$version

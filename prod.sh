@@ -24,5 +24,5 @@ git add keepalive/*.py
 git commit -m "$version"
 git push
 sleep 20
-cmd /c "python -m pip install keepalive==$version"
-python -m pip install keepalive==$version
+cmd /c "python -m pip install keepalive-socket==$version"
+python -m pip install keepalive-socket==$version

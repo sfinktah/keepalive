@@ -11,7 +11,7 @@ elif os.path.exists('README.md'):
 with open(filename, "r", encoding="utf-8") as fh:
     long_description = fh.read()
 setup(
-    name='keepalive',
+    name='keepalive-socket',
     version=VERSION,
     url='https://github.com/sfinktah/keepalive',
     long_description=long_description,
@@ -22,11 +22,10 @@ setup(
     description='TBA',
     classifiers=[
         "Programming Language :: Python :: 3",
-        "Programming Language :: Python :: 2",
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
-    python_requires=">=2.7",
+    python_requires=">=3.6",
     packages=find_packages(),
     install_requires=[],
 )
