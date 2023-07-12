@@ -4,7 +4,7 @@ import os
 VERSION="0.0.1"
 if os.path.exists('README.rst'):
     filename = 'README.rst'
-    content_type = 'text/rst'
+    content_type = 'text/x-rst'
 elif os.path.exists('README.md'):
     filename = 'README.md'
     content_type = 'text/markdown'
