@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 import os
 
-VERSION="0.0.1"
+VERSION="0.0.2"
 if os.path.exists('README.rst'):
     filename = 'README.rst'
     content_type = 'text/x-rst'
