@@ -5,6 +5,10 @@ Using keepalive
 
 Based on a stackoverflow post (https://stackoverflow.com/questions/12248132/how-to-change-tcp-keepalive-timer-using-python-script)
 
+.. code-block:: bash
+
+    pip install keepalive-socket
+
 .. code-block:: python
 
     import socket, keepalive
